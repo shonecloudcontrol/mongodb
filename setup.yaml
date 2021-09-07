@@ -1,9 +1,7 @@
 users:
   - name: user1
     password: $MONGOUSER1_PASSWORD
-  - name: user2
-    password:
-
+  
 databases:
   - name: database1
   - name: database2
