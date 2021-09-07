@@ -30,4 +30,4 @@ properties:
      vault: DB_USER_ADMIN_PASSWORD
   MONGO_MBK_PASSWORD:
      vault: MONGOUSER1_PASSWORD
-  revision : 04
+  revision : 05
