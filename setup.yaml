@@ -1,0 +1,23 @@
+users:
+  - name: appz1_mongo
+    password: $MONGOUSER1_PASSWORD
+  - name: appz2_mongo
+    password: $MONGOUSER2_PASSWORD
+
+databases:
+  - name: appz-mongodb1
+  - name: appz-mongodb2
+
+acl:
+  - database: appz-mongodb1
+    user: appz1_mongo
+    access: readWrite, dbAdmin
+  - database: appz-mongodb2
+    user: appz2_mongo
+    access: dbOwner
+  - database: appz-mongodb2
+    user: appz1_mongo
+    access: dbOwner
+  - database: appz-mongodb3
+    user: appz2_mongo
+    access: read,dbAdmin
