@@ -1,15 +1,8 @@
 #users:
-#  - name: user1
+#  - name: jagdish
 #    password: $MONGOUSER1_PASSWORD
   
-#databases:
-#  - name: marveldb1
-#  - name: infinitydb2
-
 #acl:
- # - database: test
- #   user: user1
+ # - database: dbtest
+ #   user: jagdish
  #   access: dbOwner
-#  - database: test
-#    user: user1
-#    access: dbOwner
