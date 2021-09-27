@@ -1,8 +1,8 @@
-users:
-  - name: jagdish
-    password: $MONGOUSER1_PASSWORD
+#users:
+#  - name: jagdish
+#    password: $MONGOUSER1_PASSWORD
   
-acl:
-  - database: dbtest
-    user: jagdish
-    access: dbOwner
+#acl:
+#  - database: dbtest
+#    user: jagdish
+#    access: dbOwner
