@@ -30,4 +30,4 @@ properties:
      vault: DB_USER_ADMIN_PASSWORD
   MONGOUSER_PASSWORD:
      vault: MONGOUSER_PASSWORD
-  revision : 25
+  revision : 26
